@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![](images/portfolio.png)
+![](/public/images/portfolio.png)
 
 ## Available Scripts
 
