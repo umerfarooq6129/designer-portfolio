@@ -9,7 +9,7 @@ const Hero = () => {
                         Adaptive Logo Design for Your Brand
                         <div 
                             className="absolute w-[450px] h-[300px] top-[10%] right-0 translate-x-[20%] translate-y-[-50%] bg-cover bg-no-repeat"
-                            style={{ backgroundImage: "url('/images/vector 8.png')" }}
+                            style={{ backgroundImage: "url('/public/images/vector 8.png')" }}
                         ></div>
                     </h1>
                     <button className='custom-font flex gap-3 items-center text-white bg-[#FF9142] px-6 md:px-8 py-3 rounded-[50px]'>
