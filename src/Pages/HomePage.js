@@ -7,12 +7,10 @@ import Testimonial from '../components/Testimonial/testimonial'
 const HomePage = () => {
   return (
     <>
-    <div className='container-fluid'>
         <Hero />
         <About />
         <Project />
         <Testimonial />
-    </div>
     </>
   )
 }
