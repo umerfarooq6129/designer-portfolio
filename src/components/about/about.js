@@ -5,8 +5,12 @@ const About = () => {
     <>
       <div className="flex flex-col lg:flex-row w-full justify-between px-4 md:px-[10%] items-center py-20" id='#about'>
         <div className="flex flex-col w-full lg:w-1/2 gap-4 items-start">
-          <h1 className="custom-heading text-white text-4xl md:text-5xl w-full md:w-[400px]">
+          <h1 className="custom-heading text-white text-4xl md:text-5xl w-full md:w-[400px] relative">
             Let’s get know about me closer
+            <div
+              className="absolute w-[500px] h-[300px] top-0 left-[10%] translate-x-[-50%] translate-y-[-50%] bg-cover bg-no-repeat"
+              style={{ backgroundImage: "url('images/vector 8.png')" }}
+            ></div>
           </h1>
           <p className="custom-font text-[#A8A8A8]">
             Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters, and web design.

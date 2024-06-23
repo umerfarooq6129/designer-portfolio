@@ -5,7 +5,12 @@ const Testimonial = () => {
     <>
       <div className='px-4 md:px-[10%] py-20'>
         <div className="flex flex-col md:flex-row justify-between items-center pb-8">
-          <h1 className='custom-heading text-4xl md:text-5xl text-white'>Testimonial</h1>
+          <h1 className='custom-heading text-4xl md:text-5xl text-white relative'>Testimonial
+            <div
+              className="absolute w-[400px] h-[300px] top-0 left-[10%] translate-x-[-50%] translate-y-[-50%] bg-cover bg-no-repeat"
+              style={{ backgroundImage: "url('images/vector 8.png')" }}
+            ></div>
+          </h1>
           <img src="images/quote.png" className="mt-6 md:mt-0" width={100} alt="Quote" />
         </div>
         <div className="w-full md:w-[70%]">
